@@ -10,10 +10,10 @@ def index():
 def get_cat():
     return {
         "cat_id": "1",
-        "name": "Misu",
+        "name": "Olive",
         "birthdate": "2022-03-01",
         "weight": 4.2,
-        "owner": "12345",
+        "owner": "Paul",
         "image": "https://place-hold.it/320x240&text=Cat"
     }
 
