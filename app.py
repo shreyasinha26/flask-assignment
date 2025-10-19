@@ -25,3 +25,4 @@ def get_cat():
 if __name__ == "__main__":
     # Bind to all interfaces; debug=False in production
     app.run(host="0.0.0.0", port=3000, debug=True)
+    # Note: In production, use a WSGI server like Gunicorn to run the app
