@@ -14,7 +14,7 @@ def get_cat():
         "birthdate": "2022-03-01",
         "weight": 4.2,
         "owner": "Paul",
-        "image": "https://place-hold.it/320x240&text=Cat"
+        "image": "http://127.0.0.1:3000/public/cat.png"
     }
 
 if __name__ == "__main__":
